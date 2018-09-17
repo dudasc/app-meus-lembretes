@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Meus Lembretes</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_share">Recomendar</string>
+    <string name="action_about">Sobre</string>
+    <string name="msg_about">Meus Lembretes é um aplicativo que ajuda você a não esquecer mais seus compromissos e atividades do dia a dia. Ele envia notificações com suas tarefas no horário desejado. Use na forma de lembretes ou em forma de agenda.</string>
+    <string name="title_activity_add_tarefa">Adicionar tarefa</string>
+    <string name="title_activity_edit_tarefa">Editar tarefa</string>
+    <string name="speech_prompt">Fale agora&#8230;</string>
+    <string name="speech_not_supported">Desculpe, seu dispositivo não suporta a entrada de voz</string>
+    <string name="tap_on_mic">Toque no microfone para falar</string>
+    <string name="obs_alarme">Obs: os alarmes de notificação com repetições são baseados no horário definido e repetidos até que a tarefa seja concluída ou excluída.</string>
+    <string name="com.appsee.apikey" translatable="false">0c875d4017204a91a739b5a309f4293f</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
+

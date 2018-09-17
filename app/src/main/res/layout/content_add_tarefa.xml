@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.esc.meuslembretes.AddTarefaActivity"
+    tools:showIn="@layout/activity_add_tarefa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lbDescricaoLayout"
+            style="@style/label"
+            android:layout_below="@+id/lbDescricao"
+            android:hint="Descrição">
+
+            <EditText
+                android:id="@+id/descricao"
+                style="@style/edit_text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/speech"
+            style="@style/icons"
+            android:background="@drawable/ic_voice"
+            android:onClick="onClickSpeak" />
+
+        <Button
+            android:id="@+id/clean_desc"
+            style="@style/icons"
+            android:background="@drawable/ic_clean"
+            android:onClick="onClickLimparDescricao" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lbDataLayout"
+            style="@style/label"
+            android:layout_below="@+id/lbDataLayout"
+            android:hint="Data">
+
+            <EditText
+                android:id="@+id/data"
+                style="@style/edit_text"
+                android:editable="false" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/date_picker"
+            style="@style/icons"
+            android:background="@drawable/ic_date"
+            android:onClick="onClickSelecionaData" />
+
+        <Button
+            android:id="@+id/clean_date"
+            style="@style/icons"
+            android:background="@drawable/ic_clean"
+            android:onClick="onClickLimparData" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lbHoraLayout"
+            style="@style/label"
+            android:layout_below="@+id/lbHoraLayout"
+            android:hint="Horário">
+
+            <EditText
+                android:id="@+id/horario"
+                style="@style/edit_text"
+                android:editable="false" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/time_picker"
+            style="@style/icons"
+            android:background="@drawable/ic_time"
+            android:onClick="onClickSelecionaHora" />
+
+        <Button
+            android:id="@+id/clean_time"
+            style="@style/icons"
+            android:background="@drawable/ic_clean"
+            android:onClick="onClickLimparHora" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Lembrar-me" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_notification" />
+
+            <Spinner
+                android:id="@+id/data_notificacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:entries="@array/list_notificacao"
+                android:entryValues="@array/list_notificacao_values" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Repetir" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_repeat" />
+
+            <Spinner
+                android:id="@+id/repetir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:entries="@array/list_repetir"
+                android:entryValues="@array/list_repetir_values" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obs_alarme" />
+    </LinearLayout>
+
+</LinearLayout>

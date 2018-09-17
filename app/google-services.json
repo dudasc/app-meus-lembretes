@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "822449046381",
+    "firebase_url": "https://meus-lembretes.firebaseio.com",
+    "project_id": "meus-lembretes",
+    "storage_bucket": "meus-lembretes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822449046381:android:6eee0e9e6602e05c",
+        "android_client_info": {
+          "package_name": "br.com.esc.meuslembretes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822449046381-qikc65pnrs4opb6rua709l1b4ud5u842.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiu9k6daS8LBprmvY39l8efT6mmQSknQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

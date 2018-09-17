@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Geral">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="mostrar_concluidas"
+            android:title="Exibir tarefas concluídas" />
+        <ListPreference
+            android:entries="@array/list_antigas"
+            android:entryValues="@array/list_antigas_values"
+            android:key="mostrar_antigas"
+            android:title="Mostrar tarefas antigas" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notificações">
+        <!-- <SwitchPreference
+             android:defaultValue="true"
+             android:key="audio"
+             android:summary="Ler a notificação quando recebida"
+             android:title="Utilizar sistema de voz" />-->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="som"
+            android:title="Som" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="vibrar"
+            android:title="Vibrar" />
+    </PreferenceCategory>
+</PreferenceScreen>

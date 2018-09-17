@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_antigas">
+        <item>Todas</item>
+        <item>Nenhuma</item>
+    </string-array>
+    <string-array name="list_antigas_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="list_repetir">
+        <item>2/2 horas</item>
+        <item>6/6 horas</item>
+        <item>8/8 horas</item>
+        <item>12/12 horas</item>
+        <item>1x por dia</item>
+        <item>1x por semana</item>
+        <item>1x por mês</item>
+        <item>Sem repetição</item>
+    </string-array>
+    <string-array name="list_repetir_values">
+        <item>2</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+        <item>24</item>
+        <item>168</item>
+        <item>720</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="list_notificacao">
+        <item>Pontualmente</item>
+        <item>1 hora antes</item>
+        <item>2 horas antes</item>
+        <item>6 horas antes</item>
+        <item>12 horas antes</item>
+        <item>Um dia antes</item>
+        <item>Dois dias antes</item>
+        <item>Uma semana antes</item>
+    </string-array>
+    <string-array name="list_notificacao_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+        <item>48</item>
+        <item>168</item>
+    </string-array>
+</resources>

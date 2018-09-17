@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/item_lista"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:cursorVisible="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ic_label"
+        style="@style/ic_label" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/data_hora"
+                style="@style/data_hora"
+                android:text="Data e hora" />
+
+            <ImageView
+                android:id="@+id/ic_repeat_item"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_repeat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbDescricao"
+                style="@style/descricao"
+                android:text="Descrição" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbStatus"
+                style="@style/status"
+                android:text="Status" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_concluir"
+            style="@style/bt_concluir" />
+
+        <Button
+            android:id="@+id/bt_excluir"
+            style="@style/bt_excluir" />
+    </LinearLayout>
+
+</LinearLayout>

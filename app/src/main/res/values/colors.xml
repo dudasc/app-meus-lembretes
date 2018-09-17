@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E8BC3</color>
+    <color name="buttons">#1E8BC3</color>
+    <color name="colorPrimaryDark">#3b5870</color>
+    <color name="colorAccent">#4e7796</color>
+    <color name="background">#ffffff</color>
+
+    <color name="labelPending">#F4D03F</color>
+    <color name="labelEnd">#87D37C</color>
+    <color name="labelDelayed">#EF4836</color>
+
+</resources>
